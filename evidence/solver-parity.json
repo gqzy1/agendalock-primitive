@@ -1,0 +1,10 @@
+{
+  "kind": "unchanged deterministic solver AST parity",
+  "base_source_sha256": "6a55193cc1529376ef1fb36d37d0cc9e5e5e4aa672566f98c0911b68ea1ade10",
+  "current_source_sha256": "2d789587f4080e50619008d20f3ba0f6c96d337d00d1e9d01c18215a15f0fd43",
+  "functions": {
+    "permutations": "f13165bd1ace3b9c0ae6770f148a3daf15f26ee6584ce52edbcaf8bd472d9c61",
+    "derive": "22ce3ec9b4d0f03e996847b2ee8733a39fde6961818a1b9f43b0894347eb5092"
+  },
+  "identical": true
+}

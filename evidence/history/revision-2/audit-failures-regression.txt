@@ -1,0 +1,6 @@
+test_rank_failures_leave_sealed (test_agendalock.AgendaTests.test_rank_failures_leave_sealed) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK

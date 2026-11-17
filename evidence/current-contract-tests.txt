@@ -1,0 +1,16 @@
+test_cancelled_collection_is_terminal (test_agendalock.AgendaTests.test_cancelled_collection_is_terminal) ... ok
+test_condorcet_cycle_and_all_optima (test_agendalock.AgendaTests.test_condorcet_cycle_and_all_optima) ... ok
+test_immutable_ballot_and_idempotent_retry (test_agendalock.AgendaTests.test_immutable_ballot_and_idempotent_retry) ... ok
+test_input_and_namespace_limits (test_agendalock.AgendaTests.test_input_and_namespace_limits) ... ok
+test_missing_ballot_and_member_authentication (test_agendalock.AgendaTests.test_missing_ballot_and_member_authentication) ... ok
+test_rank_failures_leave_sealed (test_agendalock.AgendaTests.test_rank_failures_leave_sealed) ... ok
+test_rank_schema_and_own_quote_grounding (test_agendalock.AgendaTests.test_rank_schema_and_own_quote_grounding) ... ok
+test_review_and_cancel_cannot_start (test_agendalock.AgendaTests.test_review_and_cancel_cannot_start) ... ok
+test_running_order_hash_revision_and_permissions (test_agendalock.AgendaTests.test_running_order_hash_revision_and_permissions) ... ok
+test_signed_ballots_closed_lifecycle (test_agendalock.AgendaTests.test_signed_ballots_closed_lifecycle) ... ok
+test_sdk_returns_json_objects_without_string_decoding (test_agendalock.SdkJsonRegressionTests.test_sdk_returns_json_objects_without_string_decoding) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.004s
+
+OK

@@ -1,0 +1,396 @@
+{
+  "planning": {
+    "accepted": {
+      "ballots": [
+        {
+          "order": [
+            2,
+            0,
+            1
+          ],
+          "quote": "Safety is my first priority, Logistics is second, and Branding is last.",
+          "status": "KNOWN"
+        },
+        {
+          "order": [
+            2,
+            0,
+            1
+          ],
+          "quote": "I rank Safety highest, then Logistics, then Branding.",
+          "status": "KNOWN"
+        }
+      ]
+    },
+    "ballot_hash": "52ff53aa3f8239f10fa5adeb11b150d62f03c03349c59f7b636decd5f02a8f51",
+    "completed": [
+      2,
+      0,
+      1
+    ],
+    "cursor": 3,
+    "id": "0x19832461b4432508905361fec63f74f746c4a685:planning",
+    "input": {
+      "members": [
+        "0x19832461b4432508905361fec63f74f746c4a685",
+        "0x378e0385d461b778af62e13c3a3b620844e7fcb0"
+      ],
+      "title": "Operations planning",
+      "topics": [
+        "Logistics",
+        "Branding",
+        "Safety"
+      ]
+    },
+    "input_hash": "fe86bf94b540064f2d2dc9d0393baff13aa350ffb9d2783e0168294c0e92160b",
+    "owner": "0x19832461b4432508905361fec63f74f746c4a685",
+    "proof": {
+      "candidates": [
+        {
+          "disagreements": 4,
+          "order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "disagreements": 2,
+          "order": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "disagreements": 6,
+          "order": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "disagreements": 4,
+          "order": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "disagreements": 0,
+          "order": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "disagreements": 2,
+          "order": [
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "chosen": [
+        2,
+        0,
+        1
+      ],
+      "majority_triangles": [],
+      "minimum_disagreements": 0,
+      "objections": [
+        {
+          "after": 0,
+          "before": 2,
+          "opposing_members": []
+        },
+        {
+          "after": 1,
+          "before": 2,
+          "opposing_members": []
+        },
+        {
+          "after": 1,
+          "before": 0,
+          "opposing_members": []
+        }
+      ],
+      "optimal_orders": [
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "pairwise_support": [
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0
+        ]
+      ],
+      "status": "READY"
+    },
+    "ranking_hash": "a07b2989ada36c9668f8e52f8d1ed7f7bd38bc4788f59b59a80683849a57e755",
+    "revision": 8,
+    "state": "CLOSED",
+    "statements": {
+      "0x19832461b4432508905361fec63f74f746c4a685": "Safety is my first priority, Logistics is second, and Branding is last.",
+      "0x378e0385d461b778af62e13c3a3b620844e7fcb0": "I rank Safety highest, then Logistics, then Branding."
+    }
+  },
+  "unclear": {
+    "accepted": {
+      "ballots": [
+        {
+          "order": [],
+          "quote": "",
+          "status": "UNKNOWN"
+        },
+        {
+          "order": [
+            2,
+            0,
+            1
+          ],
+          "quote": "I rank Safety highest, then Logistics, then Branding.",
+          "status": "KNOWN"
+        }
+      ]
+    },
+    "ballot_hash": "351abeac662235f586d0a1d517fcce33817016f8c738416849abc12a008ee813",
+    "completed": [],
+    "cursor": 0,
+    "id": "0x9b76f1fbf4b9c1feb74438a6b207d6c6a63fc4cd:unclear",
+    "input": {
+      "members": [
+        "0x9b76f1fbf4b9c1feb74438a6b207d6c6a63fc4cd",
+        "0x378e0385d461b778af62e13c3a3b620844e7fcb0"
+      ],
+      "title": "Unranked priorities",
+      "topics": [
+        "Logistics",
+        "Branding",
+        "Safety"
+      ]
+    },
+    "input_hash": "a91f6427412d6d8b9e9455ef1bfde2279e0b0566810d8b80d530f02f467892d5",
+    "owner": "0x9b76f1fbf4b9c1feb74438a6b207d6c6a63fc4cd",
+    "proof": {
+      "status": "REVIEW",
+      "unknown_members": [
+        0
+      ]
+    },
+    "ranking_hash": "1c63f0267e5fa7d86f89c3cf82ff8ca7a1b2de96524a5f5d008c41bf77cefd0c",
+    "revision": 5,
+    "state": "CANCELLED",
+    "statements": {
+      "0x378e0385d461b778af62e13c3a3b620844e7fcb0": "I rank Safety highest, then Logistics, then Branding.",
+      "0x9b76f1fbf4b9c1feb74438a6b207d6c6a63fc4cd": "All three topics are equally important to me; I do not rank them."
+    }
+  },
+  "cycle": {
+    "accepted": {
+      "ballots": [
+        {
+          "order": [
+            0,
+            1,
+            2
+          ],
+          "quote": "Logistics is first, Branding second, Safety third.",
+          "status": "KNOWN"
+        },
+        {
+          "order": [
+            1,
+            2,
+            0
+          ],
+          "quote": "Branding is first, Safety second, Logistics third.",
+          "status": "KNOWN"
+        },
+        {
+          "order": [
+            2,
+            0,
+            1
+          ],
+          "quote": "Safety is first, Logistics second, Branding third.",
+          "status": "KNOWN"
+        }
+      ]
+    },
+    "ballot_hash": "e0fb0561b95f55f7e9f48272e7c1ced54d14c6d090a087d797453fb17286fbac",
+    "completed": [
+      0,
+      1,
+      2
+    ],
+    "cursor": 3,
+    "id": "0x0025a444771b57b7ccdd2b5f216b659912eb82dc:cycle",
+    "input": {
+      "members": [
+        "0x0025a444771b57b7ccdd2b5f216b659912eb82dc",
+        "0x19832461b4432508905361fec63f74f746c4a685",
+        "0x378e0385d461b778af62e13c3a3b620844e7fcb0"
+      ],
+      "title": "Cyclic priorities",
+      "topics": [
+        "Logistics",
+        "Branding",
+        "Safety"
+      ]
+    },
+    "input_hash": "dd869a1941443b70e901fea820e3122fd24432f84731dd31bd9e00c5fce725f4",
+    "owner": "0x0025a444771b57b7ccdd2b5f216b659912eb82dc",
+    "proof": {
+      "candidates": [
+        {
+          "disagreements": 4,
+          "order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "disagreements": 5,
+          "order": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "disagreements": 5,
+          "order": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "disagreements": 4,
+          "order": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "disagreements": 4,
+          "order": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "disagreements": 5,
+          "order": [
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "chosen": [
+        0,
+        1,
+        2
+      ],
+      "majority_triangles": [
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      "minimum_disagreements": 4,
+      "objections": [
+        {
+          "after": 1,
+          "before": 0,
+          "opposing_members": [
+            1
+          ]
+        },
+        {
+          "after": 2,
+          "before": 0,
+          "opposing_members": [
+            1,
+            2
+          ]
+        },
+        {
+          "after": 2,
+          "before": 1,
+          "opposing_members": [
+            2
+          ]
+        }
+      ],
+      "optimal_orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "pairwise_support": [
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "status": "READY"
+    },
+    "ranking_hash": "e53dc548f76c6cf7c82c5621f9a1eaf4df2021732594f4daec15fe6cb4a49362",
+    "revision": 9,
+    "state": "CLOSED",
+    "statements": {
+      "0x0025a444771b57b7ccdd2b5f216b659912eb82dc": "Logistics is first, Branding second, Safety third.",
+      "0x19832461b4432508905361fec63f74f746c4a685": "Branding is first, Safety second, Logistics third.",
+      "0x378e0385d461b778af62e13c3a3b620844e7fcb0": "Safety is first, Logistics second, Branding third."
+    }
+  }
+}

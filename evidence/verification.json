@@ -1,0 +1,248 @@
+{
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contract": "0xa9a4F60d1D046FCD7Df86C902751D4D4Ca84A3AB",
+  "source_sha256": "2d789587f4080e50619008d20f3ba0f6c96d337d00d1e9d01c18215a15f0fd43",
+  "source_byte_parity": true,
+  "variant": "latest-final",
+  "transactions": [
+    {
+      "name": "deploy",
+      "hash": "0x5a56e6c901b0647c4f9f7fb5f78b0e70fb70c72584376a7c39ded40bd02ccaf1",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "open-main",
+      "hash": "0x272eeb1e1f66881b4b8176ee115924eeafa1c3c8a136415b3395e2cac4d9775a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "open-unclear",
+      "hash": "0xe71f4e217eadb335f04ae28ff7b25f656813dfe57aa50a5397ea2ed4a2259b78",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "open-cycle",
+      "hash": "0x9d1c2b354edc1321c019170e06a3904431bcd54e5c307c7b5cd1b3908d801589",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "submit-owner",
+      "hash": "0xcef97b59b447a86ddc6209c897ce84663894a5dd948f57cffb7c202768b42659",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "cycle-0",
+      "hash": "0xa7683a7f9550836063587c705c064e4dbafb5bcca092f45b8fcaf9d33349379e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "unclear-owner",
+      "hash": "0xcfbe0c9ad515fdb127a3fa329b9b8ef4e96be7eb6c9b4e13d381d56a9c4fbbf1",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "submit-member",
+      "hash": "0xe7a16a1df251a2c36266904c7e60062410534eec42a8742d9cb6f4c2a4b7a313",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "cycle-1",
+      "hash": "0xd7c76f8c717e72c6f3cc5d042fa2993eb17ae170879278519dbe00736555cbd2",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "unclear-member",
+      "hash": "0xb6775175c9f5877b7a85ad8c832acf890c796d3e739d34da915967a19e364bb8",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "cannot-rewrite-ballot",
+      "hash": "0x7bb4bd7fef5acf14289a0e36fd845dacfd96b416f9102f855a84c56ac827bcea",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "cycle-2",
+      "hash": "0x22a86350567b6425481ab3ffbf444fd1fc57430c6e3fccdcb69fe2b0ac6ea8e5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "freeze-unclear",
+      "hash": "0x1f40d78d47e93413cc467925c2583aa79965a4e0eaac7613324c3f4199d09535",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "nonmoderator-freeze",
+      "hash": "0xb249c923106f40183ff36856632626a7ed37895846565b3e98ae8e2ee645a921",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "freeze-cycle",
+      "hash": "0x934d1c2ef289fa64d46ad38c6f8f7a3756afb8aa2f951cfc26c39ddd93a397a1",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "rank-unclear",
+      "hash": "0xf6265f26c0a169ce51165279d7367c314ef76760f8346dc206adc00b6b992d32",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "freeze-main",
+      "hash": "0xe55b7fed60aea34a90b97b9300e0c7a8839318ecfa443fd3bfadd6837e2bdb65",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "rank-cycle",
+      "hash": "0x18ad7d7e8032342d205e602ce1b461383c7e47db59f8b2692111bf74351cb941",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "review-cannot-start",
+      "hash": "0x64c9bb1054ecbbc8e8ebc54276e1d1ee4fe6f134701e56a8f7a3eba60f3d598d",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "rank-main",
+      "hash": "0x1e978e77c6b95d770d338ef2ecf7300caaf374c2c57006d118857042fa44f0e5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "start-cycle",
+      "hash": "0x412ad43c5012935ccdc738cf1033fccc2c2599af5a3925e6d5ec764504850779",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "member-cancel",
+      "hash": "0xaf4e975f3fa9c3b4b044197024224ce3d1415a69b2575a37931b2a0a30437076",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "nonmoderator-start",
+      "hash": "0x3bf1467026de9d037d167d5584de4d58938d09762d1c6b31bfd90591f4753050",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "cycle-complete-0",
+      "hash": "0xf594b62e3ebcf796bbb2051b2c156b10e5bc7022295f53491d8a77a8714bca7f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "wrong-ranking-hash",
+      "hash": "0xbf4256a9b7c08aa629fe80879674f107a9b939dbd27a4c256fa731e14a103772",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "cycle-complete-1",
+      "hash": "0xe6e87f148d5814f252e66e3dfcc957b310b3f3fd31453024dbe9bab75a95d07b",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "start-main",
+      "hash": "0xb15f9a0be7aa4c632a15b638278f7f884fb431d44f4fbee0eb18b3471512ee9f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "cycle-complete-2",
+      "hash": "0x4e34b5fcfc89a8d11f2db1cfdbc236bf7e0c483edf02e82751708da4f02fd00d",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "cannot-skip-topic",
+      "hash": "0x8817d2ae287b32ca8fe88f27541a10252ae37b8fd8059386c213ecca822be48f",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    },
+    {
+      "name": "complete-safety",
+      "hash": "0xe51b195e5f093ca2aa3e0a26c6cb953e2c92d1b594a6a87da529967da04c7a95",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "complete-logistics",
+      "hash": "0xbc98c064a2bb98effd4b5655aca39b7e9294f5cfa1aeda5efeb2af2b55353803",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "complete-branding",
+      "hash": "0x83f4a01f1755c91ec804456324251780620af990d1398259473dad3ee3324e6b",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "expected_success": true
+    },
+    {
+      "name": "cannot-repeat-closed",
+      "hash": "0xd6027d5d794fe7cae870d892a61fe10169933ec5453d12e5aedfedcc5b9d6d52",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "expected_success": false
+    }
+  ],
+  "records": [
+    "planning",
+    "unclear",
+    "cycle"
+  ],
+  "proof_verification": "Independent ballot, all-candidate optimum, cycle, execution-prefix and commitment verification passed for 3 agendas.",
+  "verified_at": "2026-11-17T18:48:55.397Z"
+}
